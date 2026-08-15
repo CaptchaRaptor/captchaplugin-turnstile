@@ -1,0 +1,47 @@
+{
+  "name": "Captcha Plugin: Turnstile Solver by Raptor",
+  "version": "0.0.21",
+  "description": "Automatically solves Cloudflare Turnstile challenges. Completely free. No registration or key purchase required.",
+  "default_locale": "en",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://challenges.cloudflare.com/cdn-cgi/challenge-platform/*",
+        "*://challenges.fed.cloudflare.com/cdn-cgi/challenge-platform/*"
+      ],
+      "js": [
+        "captcha/turnstile.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "icons": {
+    "16": "icon/16.png",
+    "32": "icon/32.png",
+    "48": "icon/48.png",
+    "128": "icon/128.png"
+  },
+  "manifest_version": 3,
+  "permissions": [
+    "debugger",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "action": {
+    "default_title": "Captcha Plugin: Turnstile Solver by Raptor",
+    "default_icon": "icon/16.png",
+    "default_popup": "popup.html"
+  },
+"host_permissions": [
+  "*://challenges.cloudflare.com/*",
+  "*://challenges.fed.cloudflare.com/*"
+],
+  "minimum_chrome_version": "111",
+  "version_name": "v0.0.21"
+}

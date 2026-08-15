@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Captcha Plugin: Turnstile Solver by Raptor"
+  },
+  "appDescription": {
+    "message": "❗❗Use the latest version of Chrome — in versions older than a week, Turnstile may not register the click on some sites❗❗\nThe plugin automatically solves Cloudflare Turnstile challenges.\n\nFeatures:\n - Solves Cloudflare Turnstile by emulating cursor movement and a mouse click\n - Free\n - No API key needed, no payments required\n - No registration required, works right after installation\n\nUsage details:\n - In settings, you can enable/disable the plugin\n - You can set a delay before solving\n\nDrawbacks:\n - Requires the latest version of Chrome — if the version isn't up to date, Cloudflare may sometimes detect it as a bot and not register the click\n - Launches Chrome in remote debugging mode, and a \"started debugging this browser\" window appears\n\nThis is the first public version of the plugin. Register at captchaplugin.com to get information about new versions and plugins for other captchas. Registration is not required for the extension to work.\n\nreCaptcha extension: https://chromewebstore.google.com/detail/free-ai-recaptcha-solver/iomcoelgdkghlligeempdbfcaobodacg"
+  },
+  "actionTitle": {
+    "message": "Open CaptchaPlugin"
+  }
+}

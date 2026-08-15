@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Captcha Plugin: Turnstile Solver by Raptor"
+  },
+  "appDescription": {
+    "message": "❗❗请使用最新版本的 Chrome，超过一周未更新的版本在某些网站上 Turnstile 可能无法识别点击❗❗\n该插件可自动解决 Cloudflare Turnstile 验证挑战。\n\n功能：\n - 通过模拟光标移动和鼠标点击来解决 Cloudflare Turnstile\n - 免费\n - 无需 API 密钥，也无需付款\n - 无需注册，安装后即可使用\n\n使用说明：\n - 在设置中，你可以启用/禁用插件\n - 你可以设置解决前的延迟\n\n缺点：\n - 需要最新版本的 Chrome，如果版本不是最新的，Cloudflare 有时可能会识别为机器人，从而无法通过点击验证\n - 会以远程调试模式启动 Chrome，并出现 \"started debugging this browser\" 窗口\n\n这是插件的第一个公开版本。前往 captchaplugin.com 注册以获取新版本和其他验证码插件的相关信息。插件的使用无需注册。\n\nreCaptcha 扩展程序：https://chromewebstore.google.com/detail/free-ai-recaptcha-solver/iomcoelgdkghlligeempdbfcaobodacg"
+  },
+  "actionTitle": {
+    "message": "打开 CaptchaPlugin"
+  }
+}

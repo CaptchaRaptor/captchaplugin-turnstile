@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Captcha Plugin: Turnstile Solver by Raptor"
+  },
+  "appDescription": {
+    "message": "❗❗Utilisez la dernière version de Chrome. Dans les versions vieilles de plus d'une semaine, Turnstile ne valide parfois pas le clic sur certains sites❗❗\nLe plugin résout automatiquement les vérifications Cloudflare Turnstile.\n\nFonctionnalités :\n - Résout Cloudflare Turnstile en simulant le mouvement du curseur et le clic de souris\n - Gratuit\n - Aucune clé API nécessaire, aucun paiement requis\n - Aucune inscription requise, fonctionne dès l’installation\n\nDétails d’utilisation :\n - Dans les paramètres, vous pouvez activer / désactiver le plugin\n - Vous pouvez définir un délai avant la résolution\n\nInconvénients :\n - Nécessite la dernière version de Chrome ; si la version n'est pas à jour, Cloudflare peut parfois détecter un robot et ne pas valider le clic\n - Lance Chrome en mode débogage à distance, ce qui fait apparaître la fenêtre « started debugging this browser »\n\nCeci est la première version publique du plugin. Inscrivez-vous sur captchaplugin.com pour recevoir des informations sur les nouvelles versions et les plugins pour d'autres captchas. L'inscription n'est pas obligatoire pour que l'extension fonctionne.\n\nExtension pour reCaptcha : https://chromewebstore.google.com/detail/free-ai-recaptcha-solver/iomcoelgdkghlligeempdbfcaobodacg"
+  },
+  "actionTitle": {
+    "message": "Ouvrir CaptchaPlugin"
+  }
+}

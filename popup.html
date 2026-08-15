@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CaptchaPlugin</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h1>CaptchaPlugin by Raptor</h1>
+  </div>
+
+  <section class="card">
+    <div class="kv">
+      <span>Solver enabled</span>
+      <label class="switch"><input type="checkbox" id="enabled"><span class="slider"></span></label>
+
+      <span>Delay (ms)</span>
+      <input type="number" id="delay" min="0" step="50" placeholder="0">
+    </div>
+    <p class="small help">Runs entirely locally, no data is sent outside.</p>
+  </section>
+
+  <div class="footer small">
+    <a href="https://captchaplugin.com" target="_blank" rel="noopener noreferrer">Visit captchaplugin.com</a>
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
+
